@@ -38,7 +38,29 @@ Taken together, the data is not statistically different from our presumed 1500 P
 ![linear2](https://user-images.githubusercontent.com/81272629/127751527-972358c5-d386-4a24-a4b0-59891ef0b04c.png)
 ![linear2](https://user-images.githubusercontent.com/81272629/127751538-d1afd4c5-3a8f-4966-8e76-b63a0adce944.png)
 
+## Study Design: MechaCar vs Competition
+
+To evaluate how MechaCar is positioned in relation to our competitors we are going to create a statistical study, in this study we want to focus on what we believe are the most important variables for our target customer: mpg in relation to the type of vehicle. We believe our customers want the best mpg for the type of car they want.
+
+- What metric or metrics are you going to test?
 
 
+Highway MPG, City MPG, we are going to test each metric for each of our most important types of vehicle: SUV, Sedan, Pick-up. 
+
+- What is the null hypothesis or alternative hypothesis?
+
+
+We have a differents null hypothesis some of them are: The Highway MPG of MechaCar's Pick-up is the lowest of the market, The City MPG of MechaCar's SUV is the lowest of the market, The Highway MPG of MechaCar's Sedan is the lowest of the market.
+
+
+- What statistical test would you use to test the hypothesis? And why?
+
+
+We would perform a two sample t-test because we want to see if there is any difference between the mean MPG of MechaCars and the competitors.
+
+- What data is needed to run the statistical test?
+
+
+We need data that show the MPG per type of vehicle for each company.
 
 
